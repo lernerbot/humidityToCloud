@@ -2,7 +2,7 @@
 This is meant for use on a raspberry pi with a DHT11 sensor.
 
 ## Before you begin
-Need to setup a database on AWS to receive data input.
+An AWS endpoint and dynamoDB need to be setup on AWS to receive data input.
 
 Install git:
 ```
@@ -31,12 +31,12 @@ sudo python setup.py install
 
 Clone this repo:
 ```
-git clone https://github.com/UncorkedStudios/humidity.git
+git clone https://github.com/lernerbot/humidityToCloud.git
 ```
 
 Change directory to humidity folder:
 ```
-https://github.com/UncorkedStudios/humidity.git
+cd humidityToCloud
 ```
 
 Run the humidity logger:
